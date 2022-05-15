@@ -340,11 +340,16 @@ svg {
   padding-right: var(--ui-layout-container);
 }
 
-.ui-layout-flex,
-.ui-layout-grid {
-  align-items: flex-start
-  justify-content: flex-start
+.ui-layout-flex {
+  align-items: center;
+  justify-content: center;
 }
+
+.ui-layout-grid {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
 
 .ui-layout-flex { display: flex; }
 
