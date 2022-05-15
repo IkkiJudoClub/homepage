@@ -261,7 +261,7 @@ q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
   --ui-gap-customer   : 2rem;
   --ui-gap-feature    : 2rem;
   --ui-gap-testimonial: 2rem;
-  --ui-radius-avatar: 5rem;
+  --ui-radius-avatar: 10rem;
   --ui-radius-button: 5rem;
 }
 
