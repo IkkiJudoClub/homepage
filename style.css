@@ -342,8 +342,8 @@ svg {
 
 .ui-layout-flex,
 .ui-layout-grid {
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start
+  justify-content: flex-start
 }
 
 .ui-layout-flex { display: flex; }
