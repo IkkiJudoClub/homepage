@@ -230,19 +230,28 @@ q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 
 :root {
   --ui-color-brand: #353535;
-  --ui-color-n-000: #fff;
-  --ui-color-n-025: #fafafa;
-  --ui-color-n-050: #f5f5f5;
   --ui-color-n-300: #aeaeae;
   --ui-color-n-500: #353535;
   --ui-color-n-900: #1a1a1a;
+
+  --ui-color-n-000: #fff;
+  --ui-color-n-025: #fafafa;
+  --ui-color-n-050: #f5f5f5;
+  --ui-color-n-075: #F0F0F0;
+  --ui-color-n-100: #F0F0F0;
+  --ui-color-background-000    : var(--ui-color-n-000);
+  --ui-color-background-025    : var(--ui-color-n-025);
+  --ui-color-background-050    : var(--ui-color-n-050);
+  --ui-color-background-075    : var(--ui-color-n-075);
+  --ui-color-background-100    : var(--ui-color-n-100);
+
   --ui-color-background-primary  : var(--ui-color-n-000);
-  --ui-color-background-secondary: var(--ui-color-n-050);
   --ui-color-background-tertiary : var(--ui-color-n-025);
-  --ui-color-typography-heading: var(--ui-color-n-500);
-  --ui-color-typography-body   : var(--ui-color-n-900);
-  --ui-color-typography-note   : var(--ui-color-n-300);
-  --ui-color-typography-button : var(--ui-color-n-000);
+  --ui-color-background-secondary: var(--ui-color-n-050);
+  --ui-color-typography-heading  : var(--ui-color-n-500);
+  --ui-color-typography-body     : var(--ui-color-n-900);
+  --ui-color-typography-note     : var(--ui-color-n-300);
+  --ui-color-typography-button   : var(--ui-color-n-000);
   --ui-typography-typeface: "Inter", sans-serif;
   --ui-typography-h1: 1.9375rem;
   --ui-typography-h2: 1.5625rem;
@@ -408,7 +417,8 @@ svg {
 
 .ui-section-header__layout { justify-content: space-between; }
 
-.ui-section-hero {
+.ui-section-about {
+  background-color: var(--ui-color-background-000);
   padding-bottom: 5rem;
   padding-top: 5rem;
   text-align: center;
@@ -446,8 +456,22 @@ svg {
   margin-top: 5rem;
 }
 
-.ui-section-testimonial {
-  background-color: var(--ui-color-background-tertiary);
+.ui-section-class {
+  background-color: var(--ui-color-background-025);
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.ui-section-instructor {
+  background-color: var(--ui-color-background-050);
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.ui-section-gallery {
+  background-color: var(--ui-color-background-075);
   padding-bottom: 5rem;
   padding-top: 5rem;
   text-align: center;
@@ -471,8 +495,8 @@ svg {
 
 .ui-section-testimonial--author { line-height: 1.25; }
 
-.ui-section-close {
-  background-color: var(--ui-color-background-secondary);
+.ui-section-contact {
+  background-color: var(--ui-color-background-100);
   padding-top: 5rem;
   text-align: center;
 }
@@ -632,7 +656,7 @@ svg {
     padding-top: 3rem;
   }
 
-  .ui-section-hero {
+  .ui-section-about {
     padding-bottom: 7.5rem;
     padding-top: 7.5rem;
   }
@@ -656,12 +680,22 @@ svg {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .ui-section-testimonial {
+  .ui-section-class {
     padding-bottom: 7.5rem;
     padding-top: 7.5rem;
   }
 
-  .ui-section-close { padding-top: 7.5rem; }
+  .ui-section-instructor {
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+  }
+
+  .ui-section-gallery {
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+  }
+
+  .ui-section-contact { padding-top: 7.5rem; }
   
   .ui-section-footer {
     padding-bottom: 3rem;
