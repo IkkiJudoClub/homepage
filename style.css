@@ -86,7 +86,7 @@
     right: 0;
     left: 0; /*dropdown font to show on left but doesn't work on smartphone chrome*/
     z-index: 1; /*trnsparent->solid*/
-    background-color: #d9f0f7;
+    background-color: #467bd2;
     visibility: hidden;
     opacity: 0;
     transform: translateY(-100%);
