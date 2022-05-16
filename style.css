@@ -504,7 +504,7 @@ svg {
 }
 
 .ui-section-footer {
-  background-color: var(--ui-color-background-100);
+  background-color: var(--ui-color-background-300);
   padding-bottom: 3rem;
   padding-top: 3rem;
 }
