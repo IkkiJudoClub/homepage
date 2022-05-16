@@ -81,7 +81,7 @@
   .nav__wrapper {
     position: absolute;
     top: 100%;
-    right: 0;
+    right: 1rem;
     left: 0; /*dropdown font to show on left but doesn't work on smartphone chrome*/
     z-index: 1; /*trnsparent->solid*/
     background-color: #d9f0f7;
