@@ -99,8 +99,8 @@
   .nav__toggle {
     display: block;
     position: absolute;
-    right: 1rem;
-    top: 1rem; } }
+    right: 0.5rem;
+    top: 1.5rem; } }
 
 .wrapper {
   max-width: 1140px;
