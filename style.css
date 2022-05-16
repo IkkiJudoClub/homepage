@@ -409,6 +409,7 @@ svg {
 .ui-section-header__layout { justify-content: space-between; }
 
 .ui-section-hero {
+  background-color: var(--ui-color-background-tertiary);
   padding-bottom: 5rem;
   padding-top: 5rem;
   text-align: center;
