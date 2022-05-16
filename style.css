@@ -1,6 +1,7 @@
 
 .brand {
   font-weight: bold;
+  color: var(--ui-color-typography-white);
   font-size: 20px; }
 
 .site-header {
